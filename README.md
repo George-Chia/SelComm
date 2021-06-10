@@ -53,7 +53,7 @@ rosrun stage_ros_add_pose_and_crash stageros -g worlds/random.world
 mpiexec -np NUM_ROBOTS(8, 16 or 24) python ppo_stage1.py
 ```
 
-To train Stage2, modify the hyper-parameters in `ppo_stage2.py` as you like, and running the following command:
+To train Stage2, and running the following command:
 
 ```
 rosrun stage_ros_add_pose_and_crash stageros -g worlds/group-swap.world
