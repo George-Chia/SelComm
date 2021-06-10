@@ -62,7 +62,7 @@ mpiexec -np 12 python ppo_stage2.py
 
 ## References
 
- The authors thank Liu for open sourced code.
+ The authors thank Liu for the open sourced code.
 
 ```
 @misc{Tianyu2018,
