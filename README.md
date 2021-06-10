@@ -1,9 +1,13 @@
 # SelComm
 
+This repository contains the codes for our paper, which is in submission to RA-L and IROS 2021.
+
+This is the implementation based on Stage_ROS. For Webots version, please refer to another [repository](https://github.com/George-Chia/SelComm_Webots).
+
 ## Requirement
 
 - Python 3.6
-- [ROS, tested on Kinetic and Melodic](http://wiki.ros.org/)
+- [ROS Melodic](http://wiki.ros.org/)
 - [mpi4py](https://mpi4py.readthedocs.io/en/stable/)
 - [Stage](http://rtv.github.io/Stage/)
 - [PyTorch 1.4](http://pytorch.org/)
@@ -57,6 +61,8 @@ mpiexec -np 12 python ppo_stage2.py
 ```
 
 ## References
+
+ The authors thank Liu for his code and Long et al. for their works.
 
 ```
 @misc{Tianyu2018,
