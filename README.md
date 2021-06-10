@@ -62,25 +62,16 @@ mpiexec -np 12 python ppo_stage2.py
 
 ## References
 
- The authors thank Liu for his code and Long et al. for their works.
+ The authors thank Liu for open sourced code.
 
 ```
 @misc{Tianyu2018,
-	author = {Tianyu Liu},
-	title = {Robot Collision Avoidance via Deep Reinforcement Learning},
-	year = {2018},
-	publisher = {GitHub},
-	journal = {GitHub repository},
-	howpublished = {\url{https://github.com/Acmece/rl-collision-avoidance.git}},
-	commit = {7bc682403cb9a327377481be1f110debc16babbd}
-}
-
-@inproceedings{long2018towards,
-  title={Towards optimally decentralized multi-robot collision avoidance via deep reinforcement learning},
-  author={Long, Pinxin and Fan, Tingxiang and Liao, Xinyi and Liu, Wenxi and Zhang, Hao and Pan, Jia},
-  booktitle={2018 IEEE International Conference on Robotics and Automation (ICRA)},
-  pages={6252--6259},
-  year={2018},
-  organization={IEEE}
+  author = {Tianyu Liu},
+  title = {Robot Collision Avoidance via Deep Reinforcement Learning},
+  year = {2018},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/Acmece/rl-collision-avoidance.git}},
+  commit = {7bc682403cb9a327377481be1f110debc16babbd}
 }
 ```
