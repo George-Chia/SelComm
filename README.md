@@ -16,7 +16,7 @@ This is the implementation based on Stage_ROS. For Webots version, please refer 
 
 - #### Simulation environment
 
-Please use the `stage_ros-add_pose_and_crash` package instead of the default package provided by ROS.
+Install the `stage_ros-add_pose_and_crash` package.
 
 ```shell
 mkdir -p catkin_ws/src
@@ -46,14 +46,14 @@ source devel/setup.bash
 
 ## How to train
 
-To train the random scenario, running the following command::
+To train the model in the random scenario, running the following command::
 
 ```
 rosrun stage_ros_add_pose_and_crash stageros -g worlds/random.world
 mpiexec -np NUM_ROBOTS(8, 16 or 24) python ppo_stage1.py
 ```
 
-To train Stage2, and running the following command:
+To train the model in the group swap scenario, running the following command:
 
 ```
 rosrun stage_ros_add_pose_and_crash stageros -g worlds/group-swap.world
