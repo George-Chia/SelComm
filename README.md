@@ -1,4 +1,4 @@
-# SelComm
+# SelComm_Stage
 
 This repository contains the codes for our paper, which is in submission to RA-L and IROS 2021.
 
