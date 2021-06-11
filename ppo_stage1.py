@@ -283,10 +283,10 @@ def run(comm, env, policy, policy_path, action_bound, optimizer,
                     t_batch, advs_batch = generate_train_data(rewards=r_batch, gamma=GAMMA, values=v_batch,
                                                               last_value=last_v, dones=d_batch, lam=LAMDA)
                     memory = (s_batch, goal_batch, speed_batch, position_batch,adj_batch, a_batch, l_batch, t_batch, v_batch, r_batch, advs_batch, next_q_batch,d_batch)
-                    # ppo_update_stage1(policy=policy, optimizer=optimizer, batch_size=BATCH_SIZE, memory=memory,
-                    #                   epoch=EPOCH, coeff_entropy=COEFF_ENTROPY, clip_value=CLIP_VALUE, num_step=HORIZON,
-                    #                   num_env=NUM_ENV, frames=LASER_HIST,
-                    #                   obs_size=OBS_SIZE, act_size=ACT_SIZE, global_update=global_update)
+                    ppo_update_stage1(policy=policy, optimizer=optimizer, batch_size=BATCH_SIZE, memory=memory,
+                                      epoch=EPOCH, coeff_entropy=COEFF_ENTROPY, clip_value=CLIP_VALUE, num_step=HORIZON,
+                                      num_env=NUM_ENV, frames=LASER_HIST,
+                                      obs_size=OBS_SIZE, act_size=ACT_SIZE, global_update=global_update)
                     is_update = True
 
                     buff = []
